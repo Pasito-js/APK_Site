@@ -39,6 +39,9 @@ function App() {
 		}
 	};
 	
+	const proverka = () => {
+		// code dlya proverki
+	}
 	
 	return (
 		<>
