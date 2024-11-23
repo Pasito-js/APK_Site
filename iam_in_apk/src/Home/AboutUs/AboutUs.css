@@ -1,0 +1,32 @@
+.section__about-us {
+	margin-bottom: 100px;
+}
+
+.about__us {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.about__us-text {
+	margin-right: 130px;
+	padding: 30px;
+	background: #E4E2D7;
+	border-radius: 20px;
+	color: #878680;
+}
+
+.school {
+	width: 500px;
+	height: 250px;
+	padding: 10px;
+	background: #E4E2D7;
+	border-radius: 20px;
+}
+
+.agroclass {
+	width: 600px;
+	height: 350px;
+	padding: 10px;
+	background: #E4E2D7;
+	border-radius: 20px;
+}

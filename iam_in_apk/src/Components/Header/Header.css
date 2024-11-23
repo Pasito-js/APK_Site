@@ -1,0 +1,64 @@
+
+.information {
+	display: flex;
+	margin-top: 32px;
+	align-items: center;
+	width: 78vw;
+	margin-bottom: 32px;
+}
+
+.socials {
+	display: flex;
+	margin-right: 80px;
+	align-items: center;
+	gap: 10px;
+}
+
+.contact {
+	padding: 0 40px 0;
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+}
+
+.logotype {
+	margin-right: 100px;
+	display: inline-block;
+}
+
+.social {
+	width: 30px;
+	height: 30px;
+}
+
+.circle {
+	padding: 8px;
+	border: 1px solid #F8F7F0;
+	border-radius: 50%;
+	background: #f8f6ea;
+	width: 40px;
+	height: 40px;
+}
+
+.up, .down {
+	font-size: 12px;
+	line-height: 2;
+}
+
+.up {
+	font-weight: 600;
+	color: #878680;
+}
+
+.down {
+	font-weight: 700;
+	color: #1F1E17;
+	font-size: 14px;
+}
+
+.contact {
+	margin-right: 60px;
+}
+
+.location {
+
+}

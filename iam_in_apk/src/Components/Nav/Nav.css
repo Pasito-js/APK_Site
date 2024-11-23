@@ -1,0 +1,35 @@
+
+.nav {
+	background-color: #E4E2D7;
+	padding-bottom: 1px;
+}
+
+
+.nav__menu {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.nav__menu__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.title_3 {
+	color: #878680;
+}
+
+.nav__menu-link {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	z-index: 11;
+}
+
+.nav__menu-link img {
+	width: 8px;
+	height: 5px;
+}
