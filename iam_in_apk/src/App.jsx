@@ -8,8 +8,8 @@ import Proforientation from './Proforientation/Proforientation.jsx';
 
 function App() {
 	
-	const [isShowHome, setIsShowHome] = useState(true);
-	const [isShowQuiz, setIsShowQuiz] = useState(false);
+	const [isShowHome, setIsShowHome] = useState(false);
+	const [isShowQuiz, setIsShowQuiz] = useState(true);
 	const [isShowProf, setIsShowProf] = useState(false);
 	
 	const setShowHomeHandler = () => {
@@ -38,10 +38,6 @@ function App() {
 			setIsShowQuiz(false)
 		}
 	};
-	
-	const proverka = () => {
-		// code dlya proverki
-	}
 	
 	return (
 		<>

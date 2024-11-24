@@ -1,5 +1,7 @@
 import './Welcome.css';
 
+import cowsImg from '../../../public/коровки.jpg';
+
 const Welcome = (props) => {
 	return (
 		<section>
@@ -14,7 +16,7 @@ const Welcome = (props) => {
 				</div>
 				
 				<div className="img">
-					<img src="../../../public/коровки.jpg" alt="Cows"/>
+					<img src={cowsImg} alt="Cows"/>
 				</div>
 				
 			</div>
