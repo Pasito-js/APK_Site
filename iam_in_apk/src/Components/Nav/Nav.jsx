@@ -29,7 +29,7 @@ const Nav = (props) => {
 					<ul className="nav__menu__list">
 						<li className="nav__menu__list-item">
 							<a href="#!" className='nav__menu-link' onClick={showHomeHandler}>
-								<h3 className='title_3'>Главная</h3>
+								<h3 className='title_3' style={{fontWeight: '600'}}>Главная</h3>
 								<img src={arrowImg} alt="arrow"/>
 							</a>
 						</li>

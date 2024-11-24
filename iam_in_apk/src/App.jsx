@@ -1,10 +1,11 @@
 import './App.css';
 import Home from './Home/Home.jsx';
 import {useState} from 'react';
-import Quiz from './Quiz/Quiz.jsx';
 import Header from './Components/Header/Header.jsx';
 import Nav from './Components/Nav/Nav.jsx';
 import Proforientation from './Proforientation/Proforientation.jsx';
+import Quiz from './Quiz/Quiz.jsx';
+import Goal from './Components/Goal/Goal.jsx';
 
 function App() {
 	
@@ -45,9 +46,10 @@ function App() {
 			<Nav onShowHomeHandler={setShowHomeHandler}
 			     onShowQuizHandler={setShowQuizHandler}
 			     onShowProfHandler={setShowProfHandler}/>
-			{isShowHome && <Home />}
-			{isShowQuiz && <Quiz />}
-			{isShowProf && <Proforientation />}
+			{isShowHome && <Home /> }
+			{isShowQuiz && <Quiz /> }
+			{isShowProf && <Proforientation /> }
+			{isShowHome && <Goal /> }
 		</>
 	);
 }
