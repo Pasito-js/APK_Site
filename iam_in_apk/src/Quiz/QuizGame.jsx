@@ -62,7 +62,7 @@ const QuizGame = (props) => {
 			} else {
 				// Квиз закончен, показать результаты
 				setShowResults(true);
-				questionText = 'Поздравляем с завершением викторины!!!';
+				questionText = `Поздравляем с завершением викторины!!! у вас ${score}`;
 				//TODO: поменять картинку на поздравления или что то рода
 				//TODO: block with configuration text for user and amount of scores
 			}
@@ -113,8 +113,7 @@ const QuizGame = (props) => {
 							Ответить
 						</button>}
 						
-						{showResults && <h2>Hello</h2>}
-					
+						{showResults && <h2>Scores {score}</h2>}
 					</div>
 				</div>
 			</div>

@@ -6,6 +6,7 @@ import Nav from './Components/Nav/Nav.jsx';
 import Proforientation from './Proforientation/Proforientation.jsx';
 import Quiz from './Quiz/Quiz.jsx';
 import Goal from './Components/Goal/Goal.jsx';
+import Cooperative from './Components/Cooperative/Cooperative.jsx';
 
 function App() {
 	
@@ -50,6 +51,7 @@ function App() {
 			{isShowQuiz && <Quiz /> }
 			{isShowProf && <Proforientation /> }
 			{isShowHome && <Goal /> }
+			{isShowHome && <Cooperative /> }
 		</>
 	);
 }

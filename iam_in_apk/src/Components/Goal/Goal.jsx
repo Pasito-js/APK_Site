@@ -1,13 +1,19 @@
-import React from 'react';
+import houseImg from './../../../public/green_house.png';
+
+import './Goal.css';
 
 const Goal = (props) => {
 	return (
-		<section>
+		<section className="goal">
 			<div className="container">
-				<h2 className='title_2'>В чем цель данного проекта?</h2>
-				<p className='goal__desc'>Дать учащимся новые знания в области АПК, а также узнать какая
-					профессия в СХ подойдет им больше.</p>
+				<div className="text">
+					<h2 className="title_2">В чем цель данного проекта?</h2>
+					<p className="goal__desc">Дать учащимся новые знания в области АПК, а
+						также узнать какая профессия в СХ подойдет им больше всего. Lorem ipsum
+						dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
 			</div>
+			<img className="img" src={houseImg} alt="house"/>
 		</section>
 	);
 };
