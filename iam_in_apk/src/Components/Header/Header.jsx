@@ -1,7 +1,6 @@
-import vkImg from '../../../public/vk.svg';
-import logoImg from '../../../public/logo.png';
-
+import logoImg from '/logo.png';
 import './Header.css';
+import {FaTelegram, FaVk} from 'react-icons/fa6';
 
 const Header = (props) => {
 	return (
@@ -16,35 +15,25 @@ const Header = (props) => {
 							</a>
 						</li>
 						<li className='circle'>
-							<a href="#!" className="socials__link">
-								<img src={vkImg} className='social' alt=""/>
+							<a href="https://vk.com/maluyparen" className="socials__link">
+								<FaVk color={'black'} className='social-link'/>
 							</a>
 						</li>
 						<li className='circle'>
-							<a href="#!" className="socials__link">
-								<img src={vkImg} className='social' alt=""/>
-							</a>
-						</li>
-						<li className='circle'>
-							<a href="#!" className="socials__link">
-								<img src={vkImg} className='social' alt=""/>
-							</a>
-						</li>
-						<li className='circle'>
-							<a href="#!" className="socials__link border_right">
-								<img src={vkImg} className='social' alt=""/>
+							<a href="https://t.me/maluyparen" className="socials__link">
+								<FaTelegram color={'black'} className='social-link'/>
 							</a>
 						</li>
 					</ul>
 					
 					<ul className="contact">
-						<p className='up'>Наша почта</p>
-						<p className='down'>bschoolcolpany@mail.ru</p>
+						<p className='up'>Почта</p>
+						<p className='down'>k.chichinyuk@mail.ru</p>
 					</ul>
 					
 					<ul className="location">
-						<p className='up'>ул. Садовая, дом 3</p>
-						<p className='down'>д. Большие Колпаны, Гатчина</p>
+						<p className='up'>Ленинградская обл, Гатчинский р-он</p>
+						<p className='down'>д. Большие Колпаны, ул. Садовая, дом 4</p>
 					</ul>
 				
 				</div>

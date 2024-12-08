@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import HelloQuiz from './HelloQuiz.jsx';
-import QuizGame from './QuizGame.jsx';
+import HelloQuiz from './HelloQuiz/HelloQuiz.jsx';
+import QuizGame from './QuizGame/QuizGame.jsx';
 
 const Quiz = (props) => {
 	const [showGame, setShowGame] = useState(false);

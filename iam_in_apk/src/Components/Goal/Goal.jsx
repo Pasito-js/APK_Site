@@ -1,10 +1,16 @@
-import houseImg from './../../../public/green_house.png';
-
+import houseImg from '/green_house.png';
 import './Goal.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import {useEffect} from 'react';
 
 const Goal = (props) => {
+	useEffect(() => {
+		AOS.init({duration: 1000});
+	}, []);
+	
 	return (
-		<section className="goal">
+		<section className="goal" data-aos="zoom-in">
 			<div className="container">
 				<div className="text">
 					<h2 className="title_2">В чем цель данного проекта?</h2>

@@ -1,0 +1,49 @@
+
+.cooperative__main {
+	display: flex;
+	gap: 50px;
+	margin-top: 50px;
+}
+
+.cooperative {
+	margin-bottom: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		width: 330px;
+		height: 300px;
+		border-radius: 10px;
+		align-self: center;
+	}
+
+	.cooperative__img {
+		width: 400px;
+		height: 350px;
+		margin-top: 20px;
+	}
+
+	.cooperative__img:last-child {
+		margin-left: 200px;
+	}
+}
+
+
+
+.cooperative .title_3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.cooperative p {
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+.cooperative .text {
+	position: relative;
+	width: 750px;
+	margin-top: 0;
+}

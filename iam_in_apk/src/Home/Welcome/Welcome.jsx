@@ -1,11 +1,19 @@
 import './Welcome.css';
 
-import cowsImg from '../../../public/коровки.jpg';
+import cowsImg from '/коровки.jpg';
+import {useEffect} from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 const Welcome = (props) => {
+	
+	useEffect(() => {
+		AOS.init({duration: 1000});
+	}, []);
+	
 	return (
 		<section>
-			<div className="welcome">
+			<div className="welcome" data-aos="flip-up">
 				
 				<div className="text">
 					<h2 className='title_2'>Я в АПК</h2>

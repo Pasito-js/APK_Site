@@ -1,8 +1,8 @@
 import './QuizGame.css';
 import {useState} from 'react';
 
-import school from '../../public/школа.jpg';
-import cow from '../../public/корова.jpg';
+import school from '/школа.jpg';
+import cow from '/корова.jpg';
 
 const questions = [
 	{
